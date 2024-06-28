@@ -368,41 +368,28 @@
 .footer {
   background-color: #1f1f1f;
   color: #fff;
-  padding: 60px 0;
-  display: flex;
+  padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
-  justify-content: space-betweens;
-}
-
-.footet__logo-copyrigth {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 16px;
 }
 
 .footer__column_content_hours {
-  text-align: left;
-  display: flex;
-  justify-content: flex-end;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  text-align: left;
+  margin-left: 80px;
 }
 
 .footer__logo {
   width: 58px;
   height: 80px;
-  padding: 20px;
 }
 
 .footer__column-heading {
-  font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -412,8 +399,7 @@
 }
 
 .footer__list-item {
-  font-size: 16px;
-  margin: 5px 0;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
@@ -433,16 +419,5 @@
 }
 
 .footer__copyright {
-  font-size: 14px;
-  margin-top: 60px;
-  padding: 20px;
-}
-
-.footer__column {
-  margin-inline-start: 320px;
-  margin-inline-end: 16px;
-}
-
-.footer__content-columns {
-  display: flex;
+  margin-top: 100px;
 }
