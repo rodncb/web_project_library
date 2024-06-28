@@ -6,7 +6,6 @@
   font-size: 16px;
   line-height: 20px;
 }
-
 .header {
   display: flex;
   flex-direction: column;
@@ -15,18 +14,15 @@
   box-sizing: border-box;
   background-color: white;
 }
-
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .nav__logo {
   height: 80px;
   width: 58px;
 }
-
 .nav__links {
   list-style: none;
   margin: 0;
@@ -36,13 +32,11 @@
   margin-top: 8px;
   list-style-type: none;
 }
-
 .nav__link {
   color: black;
   text-decoration: none;
   font-weight: bold;
 }
-
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -51,17 +45,14 @@
   color: black;
   flex: 1;
 }
-
 .header__text {
   max-width: 635px;
 }
-
 .header__image {
   max-width: 636px;
   width: 100%;
   height: auto;
 }
-
 .header__title {
   font-size: 62px;
   line-height: 76px;
@@ -70,14 +61,12 @@
   text-align: center;
   max-width: 635px;
 }
-
 .header__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
 }
-
 .header__footer {
   margin-top: auto;
   width: 100%;
@@ -86,18 +75,15 @@
   justify-content: flex-end;
   box-sizing: border-box;
 }
-
 .header__link {
   color: #2f80ed;
   text-decoration: none;
   font-weight: bold;
 }
-
 .header__address {
   margin: 0;
   color: #838383;
 }
-
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
@@ -110,7 +96,6 @@
   color: white;
   padding: 100px 100px 140px 100px;
 }
-
 .staff__title {
   font-weight: 400;
   font-size: 44px;
@@ -119,7 +104,6 @@
   color: #ffffff;
   text-align: center;
 }
-
 .staff__cards {
   display: flex;
   flex-wrap: wrap;
@@ -130,7 +114,6 @@
   padding: 0;
   margin: 68px auto 0;
 }
-
 .staff__subtitle {
   text-align: center;
   font-weight: 400;
@@ -139,7 +122,6 @@
   color: #ffffff;
   margin: 0;
 }
-
 .card {
   width: 360px;
   border-radius: 6px;
@@ -150,7 +132,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .card__content {
   width: 100%;
   height: 100%;
@@ -158,14 +139,12 @@
   display: flex;
   flex-direction: column;
 }
-
 .card__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   margin: 0;
 }
-
 .card__text {
   font-size: 16px;
   line-height: 24px;
@@ -178,7 +157,6 @@
   margin-top: auto;
   color: #838383;
 }
-
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -187,36 +165,30 @@
   box-sizing: border-box;
   background-color: #f2f2f2;
 }
-
 .events__content {
   flex-basis: 580px;
 }
-
 .events__heading {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   margin: 0;
 }
-
 .events__title {
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
   margin: 32px 0 0;
 }
-
 .events__info-section {
   margin-top: 32px;
 }
-
 .event-info__item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
   font-weight: 500;
 }
-
 .event-info__icon {
   background-repeat: no-repeat;
   background-position: center;
@@ -224,23 +196,19 @@
   width: 24px;
   height: 24px;
 }
-
 .event-info__text {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   margin: 0;
 }
-
 .events__description {
   margin: 40px 0 60px;
 }
-
 .events__more {
   color: #2f80ed;
   text-decoration: none;
 }
-
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -248,11 +216,9 @@
   max-width: 780px;
   position: relative;
 }
-
 .events__image {
   max-width: 100%;
 }
-
 .person {
   position: absolute;
   display: flex;
@@ -260,63 +226,51 @@
   flex-direction: column;
   gap: 10px;
 }
-
 .person_name_feynman {
   top: -30px;
   left: 319px;
 }
-
 .person_name_burbidge {
   top: 96px;
   right: 125px;
 }
-
 .person_name_cannon {
   bottom: 18px;
   right: 216px;
   flex-direction: column-reverse;
 }
-
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
   flex-direction: column-reverse;
 }
-
 .person_name_tarter {
   top: 79px;
   left: 159px;
 }
-
 .person__image {
   max-width: 100%;
 }
-
 .person__image_size_l {
   width: 140px;
 }
-
 .person__image_size_m {
   width: 100px;
 }
-
 .person__image_size_s {
   width: 80px;
 }
-
 .person__caption {
   text-align: center;
   font-size: 14px;
   margin: 0;
 }
-
 .membership {
   padding: 100px 0 140px;
   background-color: #057bf2;
   color: #ffffff;
   text-align: center;
 }
-
 .membership__title {
   max-width: 574px;
   margin: 0 auto;
@@ -325,10 +279,8 @@
   font-weight: 500;
   line-height: 52px;
 }
-
 .membership__steps {
   list-style-type: none;
-  padding: 20;
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
@@ -336,7 +288,6 @@
   max-width: fit-content;
   align-items: center;
 }
-
 .step {
   color: white;
   padding: 40px;
@@ -346,7 +297,6 @@
   align-items: center;
   text-align: center;
 }
-
 .step__title {
   margin: 0;
   font-size: 20px;
@@ -355,69 +305,55 @@
   display: flex;
   align-items: center;
 }
-
 .step__icon {
   margin-left: 10px;
 }
-
 .step__description {
   margin: 10px 0 0;
   text-align: left;
 }
-
 .footer {
   background-color: #1f1f1f;
   color: #fff;
   padding: 60px 80px;
 }
-
 .footer__columns {
   display: flex;
 }
-
 .footer__column_content_hours {
   margin-left: auto;
 }
-
 .footer__column_content_social {
   margin-left: 80px;
 }
-
 .footer__logo {
   width: 58px;
   height: 80px;
 }
-
 .footer__column-heading {
   margin-bottom: 20px;
 }
-
 .footer__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 .footer__list-item {
   margin-bottom: 16px;
 }
-
 .footer__column-link {
   color: white;
   text-decoration: none;
 }
-
 .footer__column-link:hover {
   text-decoration: underline;
 }
-
 .footer__social-icon {
   width: 20px;
   height: 16px;
   margin-right: 10px;
   vertical-align: middle;
 }
-
 .footer__copyright {
   margin-top: 100px;
 }
