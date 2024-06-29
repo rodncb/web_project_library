@@ -347,7 +347,7 @@
   color: white;
   text-decoration: solid;
   list-style-type: none;
-  display: flexbox;
+  display: block;
   align-items: center;
   column-gap: 80px;
 }
