@@ -352,7 +352,7 @@
   column-gap: 10px;
 }
 .footer__column-link:hover {
-  text-decoration: underline;
+  color: #c1c1c1;
 }
 .footer__social-icon {
   width: 16px;
