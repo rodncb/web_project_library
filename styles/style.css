@@ -293,7 +293,7 @@
   color: white;
   padding: 40px;
   border-radius: 10px;
-  flex-basis: content;
+  flex-basis: 220px;
   box-sizing: border-box;
   align-items: center;
   text-align: center;
@@ -334,6 +334,7 @@
 }
 .footer__column-heading {
   margin-bottom: 20px;
+  margin-top: 0;
 }
 .footer__list {
   list-style-type: none;
@@ -346,8 +347,7 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
-  list-style-type: none;
-  display: list-item;
+  display: flex;
   align-items: center;
   column-gap: 10px;
 }
@@ -357,7 +357,6 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
   vertical-align: middle;
 }
 .footer__copyright {
