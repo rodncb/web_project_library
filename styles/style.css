@@ -293,7 +293,7 @@
   color: white;
   padding: 40px;
   border-radius: 10px;
-  flex-basis: auto;
+  flex-basis: content;
   box-sizing: border-box;
   align-items: center;
   text-align: center;
@@ -345,11 +345,11 @@
 }
 .footer__column-link {
   color: white;
-  text-decoration: #1f1f1f;
+  text-decoration: none;
   list-style-type: none;
-  display: contents;
+  display: list-item;
   align-items: center;
-  column-gap: normal;
+  column-gap: 10px;
 }
 .footer__column-link:hover {
   text-decoration: underline;
